@@ -1,4 +1,4 @@
-# InsightOps AI — Agentic RAG + Product Analytics + MLOps Platform
+# InsightOps AI - Agentic RAG + Product Analytics + MLOps Platform
 
 InsightOps AI is a complete end-to-end portfolio project for Data Science, Generative AI, RAG, Data Engineering, Product Analytics, and MLOps. It simulates an enterprise product analytics environment with product events, support tickets, application logs, knowledge-base documents, ML models, RAG pipelines, FastAPI services, Streamlit dashboards, MLflow experiment tracking, Docker, Airflow DAGs, and CI/CD.
 
