@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+mlruns/
+models/*.pkl
+models/*.joblib
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.db
+data/processed/vector_store/

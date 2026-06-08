@@ -1,0 +1,2 @@
+RAG Evaluation Guide
+Evaluate answer faithfulness, answer relevance, context precision, context recall, latency, and citation coverage. Any answer that lacks retrieved context should be marked high hallucination risk.

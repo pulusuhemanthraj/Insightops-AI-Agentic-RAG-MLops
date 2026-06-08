@@ -1,0 +1,2 @@
+Product Analytics Metrics
+Core KPIs include daily active users, conversion rate, checkout start rate, payment success rate, payment failure rate, average latency, cohort retention, funnel drop-off, and segment-level engagement.

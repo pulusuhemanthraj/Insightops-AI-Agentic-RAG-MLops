@@ -1,0 +1,2 @@
+ML Model Governance
+Models should be tracked with versioned parameters, metrics, artifacts, validation slices, feature importance, and production monitoring checks. Thresholds should be selected using precision and recall tradeoffs.

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -e
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+python -m src.data_generation.generate_synthetic_data
+python -m src.pipelines.feature_engineering
+python -m src.ml.train_ticket_severity_model
+python -m src.ml.train_churn_model
+python -m src.ml.anomaly_detection
+python -m src.rag.vector_store
+python -m src.rag.evaluate_rag
+echo "Setup completed. Start API: uvicorn src.api.main:app --reload"
+echo "Start Dashboard: streamlit run dashboard/app.py"

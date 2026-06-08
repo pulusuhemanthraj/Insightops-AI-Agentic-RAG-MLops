@@ -1,0 +1,2 @@
+Checkout Incident Runbook
+Payment failures usually increase when downstream payment APIs timeout, schema validation changes fail, or checkout latency crosses 800 ms. Triage by checking checkout-service and payment-service ERROR logs, payment_failure events, and recent deployments.
